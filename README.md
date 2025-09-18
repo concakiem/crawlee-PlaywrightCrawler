@@ -4,7 +4,7 @@ crawlee sử dụng hàm PlaywrightCrawler
 import { PlaywrightCrawler, Dataset } from 'crawlee';
 import fs from 'fs';
 
-const startUrls = ['https://teespring.com/shop/dogs?utm_campaign=marketplace&utm_medium=website&utm_source=teespring'];
+const startUrls = ['https://example.com/'];
 const MAX_DEPTH = 2; // Giới hạn 2 tầng
 
 const crawler = new PlaywrightCrawler({
